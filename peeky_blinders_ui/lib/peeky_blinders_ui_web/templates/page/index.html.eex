@@ -1,0 +1,39 @@
+<div>
+  <span>🌅</span>
+  &nbsp;
+  <%= link("⬆️", to: Routes.page_path(@conn, :index, command: "0_up")) %>
+  &nbsp;
+  <%= link("🛑", to: Routes.page_path(@conn, :index, command: "0_stop")) %>
+  &nbsp;
+  <%= link("⬇️", to: Routes.page_path(@conn, :index, command: "0_down")) %>
+</div>
+
+<div>
+  <span>👈</span>
+  &nbsp;
+  <%= link("⬆️", to: Routes.page_path(@conn, :index, command: "1_up")) %>
+  &nbsp;
+  <%= link("🛑", to: Routes.page_path(@conn, :index, command: "0_stop")) %>
+  &nbsp;
+  <%= link("⬇️", to: Routes.page_path(@conn, :index, command: "1_down")) %>
+</div>
+
+<div>
+  <span>👆</span>
+  &nbsp;
+  <%= link("⬆️", to: Routes.page_path(@conn, :index, command: "2_up")) %>
+  &nbsp;
+  <%= link("🛑", to: Routes.page_path(@conn, :index, command: "0_stop")) %>
+  &nbsp;
+  <%= link("⬇️", to: Routes.page_path(@conn, :index, command: "2_down")) %>
+</div>
+
+<div>
+  <span>👉</span>
+  &nbsp;
+  <%= link("⬆️", to: Routes.page_path(@conn, :index, command: "3_up")) %>
+  &nbsp;
+  <%= link("🛑", to: Routes.page_path(@conn, :index, command: "0_stop")) %>
+  &nbsp;
+  <%= link("⬇️", to: Routes.page_path(@conn, :index, command: "3_down")) %>
+</div>
